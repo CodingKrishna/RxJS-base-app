@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs';
 
-/*const coldobsv = new Observable(observer => {
+/* const coldobsv = new Observable(observer => {
 
     setTimeout(() => {
       observer.next(1);
@@ -30,6 +30,7 @@ setTimeout(() => {
     coldobsv.subscribe(value => console.log('Cold Subscription B ', value));
   }, 2500);
 */
+
   const hotobsv = new Observable(observer => {
 
     setTimeout(() => {

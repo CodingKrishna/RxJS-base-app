@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 var rxjs_1 = require("rxjs");
-/*const coldobsv = new Observable(observer => {
+/* const coldobsv = new Observable(observer => {
 
     setTimeout(() => {
       observer.next(1);
